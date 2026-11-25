@@ -1,0 +1,7 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'com.cre.mekaremote'
+    compileSdk 35
+    buildToolsVersion '35.0.0'
+    defaultConfig { applicationId 'com.cre.mekaremote'; minSdk 23; targetSdk 32; versionCode 2; versionName '1.1' }
+}
